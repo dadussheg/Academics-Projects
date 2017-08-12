@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>e-Voting Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="thoughtbk" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" href="icon.ico" type="image/x-icon">
+	<script language="JavaScript">
+  javascript:window.history.forward(1);
+</script>
+<style>
+body{
+	background-image:url(last.jpg);
+	background-size:1366px 768px;
+
+}
+</style>
+</head>
+
+<body>
+<br>
+<br>
+	<div class="container">
+		<div class="form">
+			<h1 class="head">Welcome</h1>
+			<form class="form" method="post" action="servlet">
+				<input type="number" placeholder="RollNo" name="emailId" required >
+				<input type="password" placeholder="Password" name="password" required >
+				<p class="forgot"><a class="text_forgot" href="#">Forgot Password ?</a></p>
+				<button type="submit" id="login_button">Login</button>
+				<p class="signup"><a class="text_signup" href="signup.html">Not a member yet ? Sign Up here ! </a></p>
+			</form>
+		</div>
+	</div>
+</body>
