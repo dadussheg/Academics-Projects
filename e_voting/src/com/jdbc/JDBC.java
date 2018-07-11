@@ -27,17 +27,13 @@ public class JDBC {
 			mystmt.setString(1, emailId);
 			r=mystmt.executeQuery();
 			while(r.next()){
-				//System.out.println(r.getString("name"));
+				
 				user.setName(r.getString("name"));
-				//name=r.getString("name");
+				
 				System.out.println(user.getName());
-				//System.out.println(r.getString("email"));
-				//user.setEmail(r.getString("email"));
-				//System.out.println(user.getEmail());
-				//System.out.println(r.getString("rollno"));
 				user.setRollno(r.getString("rollno"));
 				user.setImage( r.getBlob("photo"));
-				//System.out.println(user.getRollno());
+				
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -54,11 +50,9 @@ public class JDBC {
 		myStmt.setString(2, rollno);
 		myStmt.setString(3, branch);
 		myStmt.setString(4, email);
-		//myStmt.setString(5, mobile_no);
-		myStmt.setString(5, password);
+				myStmt.setString(5, password);
 		r=myStmt.executeUpdate();
-		//System.out.println(r);
-		}catch(Exception ex){
+				}catch(Exception ex){
 			ex.printStackTrace();
 			//System.out.println(r);
 		}
