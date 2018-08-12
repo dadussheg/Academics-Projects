@@ -3,6 +3,7 @@ class A{
 	private Long rollNo;
 	private short age;
 	private String dept;
+	private String sex;
 	A(String name,Long rollNo,short age){
 		this.name=name;
 		this.rollNo = rollNo;
@@ -37,7 +38,13 @@ class A{
 		return dept;
 	}
 	
-	
-	
-	
+	}
+	public String getSex()
+	{
+		return sex;
+	}
+	public void setSex(String sex){
+		this.sex = sex;
+	}
+
 }
