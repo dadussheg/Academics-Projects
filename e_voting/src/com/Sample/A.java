@@ -2,6 +2,7 @@ class A{
 	private String name;
 	private Long rollNo;
 	private short age;
+	private String dept;
 	A(String name,Long rollNo,short age){
 		this.name=name;
 		this.rollNo = rollNo;
@@ -29,8 +30,12 @@ class A{
 		
 	}
 	
-	
-	
+	public void setDept(String dept){
+		this.dept = dept;
+	}
+	public String getDept(){
+		return dept;
+	}
 	
 	
 	
