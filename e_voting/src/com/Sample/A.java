@@ -1,3 +1,4 @@
+/*This is sample java class to understand git throughly*/
 class A{
 	private String name;
 	private Long rollNo;
@@ -5,9 +6,9 @@ class A{
 	private String dept;
 	private String sex;
 	A(String name,Long rollNo,short age){
-		this.name=name;
-		this.rollNo = rollNo;
-		this.age = age;
+		this.setName(name);
+		this.setRollNo(rollNo);
+		this.setAge(age);
 	}
 	public void setName(String name){
 		this.name = name;
