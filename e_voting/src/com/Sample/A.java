@@ -2,6 +2,7 @@ class A{
 	private String name;
 	private Long rollNo;
 	private short age;
+	private String dept;
 	private String sex;
 	A(String name,Long rollNo,short age){
 		this.name=name;
@@ -27,6 +28,15 @@ class A{
 	}
 	public Long setRollNo(Long rollNo){
 		this.rollNo = rollNo;
+		
+	}
+	
+	public void setDept(String dept){
+		this.dept = dept;
+	}
+	public String getDept(){
+		return dept;
+	}
 	
 	}
 	public String getSex()
@@ -36,9 +46,5 @@ class A{
 	public void setSex(String sex){
 		this.sex = sex;
 	}
-	
-	
-	
-	
-	
+
 }
