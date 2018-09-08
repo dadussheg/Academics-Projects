@@ -1,3 +1,11 @@
 This is a sample file to test the merge conflict when committing
 to git.
 I will be testing the merge conflict.
+
+asjkfha
+afjlas
+fnvlasifuh
+afjhapsfh 
+aflsugoaf
+afsuogha 
+fgaph
