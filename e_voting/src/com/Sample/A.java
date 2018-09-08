@@ -6,7 +6,7 @@ class A{
 	private short age;
 	private String dept;
 	private String sex;
-	
+
 	A(String name,Long rollNo,short age){
 		this.setName(name);
 		this.setRollNo(rollNo);
@@ -19,9 +19,9 @@ class A{
 		return name;
 	}
 	public void getAge(){
-	
+
 		return age;
-		
+
 	}
 	public short setAge(short age){
 		this.age = age;
@@ -31,16 +31,16 @@ class A{
 	}
 	public Long setRollNo(Long rollNo){
 		this.rollNo = rollNo;
-		
+
 	}
-	
+
 	public void setDept(String dept){
 		this.dept = dept;
 	}
 	public String getDept(){
 		return dept;
 	}
-	
+
 	}
 	public String getSex()
 	{
@@ -49,5 +49,5 @@ class A{
 	public void setSex(String sex){
 		this.sex = sex;
 	}
-
+this is added by git sample 1 to check
 }
