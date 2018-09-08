@@ -1,7 +1,10 @@
 This is a sample file to test the merge conflict when committing
 to git.
 I will be testing the merge conflict.
-
+,jsdbfkjasf kjfhlajs
+fghuafsh 
+gafuigha
+ghahgalfj
 asjkfha
 afjlas
 fnvlasifuh
